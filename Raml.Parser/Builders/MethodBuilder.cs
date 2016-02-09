@@ -66,8 +66,10 @@ namespace Raml.Parser.Builders
 				var dic = obj as IDictionary<string, object>;
 				if (dic != null)
 					securedBy.AddRange(dic.Keys);
-				else if(obj != null)
+				else if (obj != null)
 					securedBy.Add(obj.ToString());
+				else
+					securedBy.Add("null");
 			}
 
 			return securedBy;
