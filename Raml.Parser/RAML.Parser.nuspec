@@ -1,23 +1,27 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-        <id>$id$</id>
-        <version>$version$</version>
-        <title>$title$</title>
-        <authors>$author$</authors>
-        <owners>$author$</owners>
-        <requireLicenseAcceptance>true</requireLicenseAcceptance>
-        <description>$description$</description>
-        <releaseNotes>RAML Parser for .NET</releaseNotes>
-        <copyright>$copyright$</copyright>
-	    <projectUrl>https://github.com/raml-org/raml-dotnet-parser</projectUrl>
-		<licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
-		<iconUrl>http://raml.org/images/logo.png</iconUrl>
-        <tags>RAML REST API SCHEMA MARKUP</tags>
-        <dependencies>
-            <dependency id="Edge.js" version="0.9.0" />
-        </dependencies>
-    </metadata>
+    <id>Raml.Parser</id>
+    <version>10.8.103</version>
+    <title>RAML.Parser</title>
+    <authors>Mulesoft Inc.</authors>
+    <owners>Mulesoft Inc</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/raml-org/raml-dotnet-parser</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/raml-org/raml-dotnet-parser/master/RAML.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A RAML Parser implementation in .NET for all CLR languages. RESTful API Modeling Language (RAML) is a simple and succinct way of describing practically-RESTful APIs. It encourages reuse, enables discovery and pattern-sharing, and aims for merit-based emergence of best practices.</description>
+    <summary>A RAML Parser implementation in .NET for all CLR languages. RESTful API Modeling Language (RAML) is a simple and succinct way of describing practically-RESTful APIs. It encourages reuse, enables discovery and pattern-sharing, and aims for merit-based emergence of best practices.</summary>
+    <releaseNotes>RAML Parser for .NET version 0.8.101
+
+ - Fixed a null reference when handling some RAML properties
+ - Introduced additional digit in versioning scheme</releaseNotes>
+    <copyright>Copyright © 2015 MuleSoft</copyright>
+    <tags>RAML REST API SCHEMA MARKUP</tags>
+    <dependencies>
+      <dependency id="Edge.js" version="0.9.0" />
+    </dependencies>
+  </metadata>
     <files>
         <file src="node_modules\raml-parser\**\*.*" target="content\net45\node_modules\raml-parser"/>
         <file src="install.ps1" target="tools\net45"/>
