@@ -79,5 +79,24 @@ namespace Raml.Parser.Tests
 
             Assert.AreEqual(4, raml.Resources.Count());
         }
+
+        [Test]
+        public async Task ShouldParse_Movies()
+        {
+            var parser = new RamlParser();
+            var raml = await parser.LoadAsync("movies.raml");
+
+            Assert.AreEqual(2, raml.Resources.Count());
+            Assert.AreEqual("oauth_2_0", raml.Resources.First().Methods.First(m => m.Verb == "post").SecuredBy.First());
+        }
+
+        [Test]
+        public async Task ShouldLoad_IncludeWithQuotes()
+        {
+            var parser = new RamlParser();
+            var raml = await parser.LoadAsync("relative-include.raml");
+
+            Assert.IsNotNull(raml);
+        }
 	}
 }
