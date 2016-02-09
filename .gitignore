@@ -182,4 +182,3 @@ UpgradeLog*.htm
 # Microsoft Fakes
 FakesAssemblies/
 /Raml.Parser/test.js
-Raml.Parser/Raml.Parser.10.8.103.nuspec
