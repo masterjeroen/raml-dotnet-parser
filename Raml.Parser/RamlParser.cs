@@ -15,10 +15,13 @@ namespace Raml.Parser
             if (string.IsNullOrWhiteSpace(filePath))
                 throw new ArgumentException("path");
 
+            var path = Path.GetDirectoryName(filePath).TrimEnd(Path.DirectorySeparatorChar, Path.AltDirectorySeparatorChar, ' ') 
+                + (filePath.Contains(Path.DirectorySeparatorChar.ToString()) ? Path.DirectorySeparatorChar : Path.AltDirectorySeparatorChar);
+
             using(var sr = new StreamReader(filePath))
             {
                 var content = await sr.ReadToEndAsync();
-	            var raml = await LoadRamlAsync(content, Path.GetDirectoryName(filePath));
+                var raml = await LoadRamlAsync(content, path);
 
                 return raml;
             }
