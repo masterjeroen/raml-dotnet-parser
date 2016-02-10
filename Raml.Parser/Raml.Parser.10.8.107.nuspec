@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Raml.Parser</id>
+        <version>10.8.107</version>
+        <title>RAML.Parser</title>
+        <authors>Mulesoft Inc.</authors>
+        <owners>Mulesoft Inc.</owners>
+        <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+        <projectUrl>https://github.com/raml-org/raml-dotnet-parser</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/raml-org/raml-dotnet-parser/master/RAML.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A RAML Parser implementation in .NET for all CLR languages. RESTful API Modeling Language (RAML) is a simple and succinct way of describing practically-RESTful APIs. It encourages reuse, enables discovery and pattern-sharing, and aims for merit-based emergence of best practices.</description>
+        <summary>A RAML Parser implementation in .NET for all CLR languages. RESTful API Modeling Language (RAML) is a simple and succinct way of describing practically-RESTful APIs. It encourages reuse, enables discovery and pattern-sharing, and aims for merit-based emergence of best practices.</summary>
+        <releaseNotes>RAML Parser for .NET version 0.8.101
+
+ - Fixed a null reference when handling some RAML properties
+ - Introduced additional digit in versioning scheme</releaseNotes>
+        <copyright>Copyright © 2015 MuleSoft</copyright>
+        <tags>RAML REST API SCHEMA MARKUP</tags>
+        <dependencies>
+            <dependency id="Edge.js" version="0.9.0" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="node_modules\raml-parser\dist\raml-parser.js" target="content\net45\node_modules\raml-parser\dist\raml-parser.js" />
+        <file src="node_modules\raml-parser\dist\raml-parser.min.js" target="content\net45\node_modules\raml-parser\dist\raml-parser.min.js" />
+        <file src="node_modules\raml-parser\legal\apache_license.pdf" target="content\net45\node_modules\raml-parser\legal\apache_license.pdf" />
+        <file src="node_modules\raml-parser\lib\composer.js" target="content\net45\node_modules\raml-parser\lib\composer.js" />
+        <file src="node_modules\raml-parser\lib\construct.js" target="content\net45\node_modules\raml-parser\lib\construct.js" />
+        <file src="node_modules\raml-parser\lib\errors.js" target="content\net45\node_modules\raml-parser\lib\errors.js" />
+        <file src="node_modules\raml-parser\lib\events.js" target="content\net45\node_modules\raml-parser\lib\events.js" />
+        <file src="node_modules\raml-parser\lib\joiner.js" target="content\net45\node_modules\raml-parser\lib\joiner.js" />
+        <file src="node_modules\raml-parser\lib\loader.js" target="content\net45\node_modules\raml-parser\lib\loader.js" />
+        <file src="node_modules\raml-parser\lib\nodes.js" target="content\net45\node_modules\raml-parser\lib\nodes.js" />
+        <file src="node_modules\raml-parser\lib\parser.js" target="content\net45\node_modules\raml-parser\lib\parser.js" />
+        <file src="node_modules\raml-parser\lib\protocols.js" target="content\net45\node_modules\raml-parser\lib\protocols.js" />
+        <file src="node_modules\raml-parser\lib\raml.js" target="content\net45\node_modules\raml-parser\lib\raml.js" />
+        <file src="node_modules\raml-parser\lib\reader.js" target="content\net45\node_modules\raml-parser\lib\reader.js" />
+        <file src="node_modules\raml-parser\lib\resolver.js" target="content\net45\node_modules\raml-parser\lib\resolver.js" />
+        <file src="node_modules\raml-parser\lib\resourceTypes.js" target="content\net45\node_modules\raml-parser\lib\resourceTypes.js" />
+        <file src="node_modules\raml-parser\lib\scanner.js" target="content\net45\node_modules\raml-parser\lib\scanner.js" />
+        <file src="node_modules\raml-parser\lib\schemas.js" target="content\net45\node_modules\raml-parser\lib\schemas.js" />
+        <file src="node_modules\raml-parser\lib\securitySchemes.js" target="content\net45\node_modules\raml-parser\lib\securitySchemes.js" />
+        <file src="node_modules\raml-parser\lib\tokens.js" target="content\net45\node_modules\raml-parser\lib\tokens.js" />
+        <file src="node_modules\raml-parser\lib\traits.js" target="content\net45\node_modules\raml-parser\lib\traits.js" />
+        <file src="node_modules\raml-parser\lib\transformations.js" target="content\net45\node_modules\raml-parser\lib\transformations.js" />
+        <file src="node_modules\raml-parser\lib\util.js" target="content\net45\node_modules\raml-parser\lib\util.js" />
+        <file src="node_modules\raml-parser\lib\validator.js" target="content\net45\node_modules\raml-parser\lib\validator.js" />
+        <file src="node_modules\raml-parser\node_modules\inflection\lib\inflection.js" target="content\net45\node_modules\raml-parser\node_modules\inflection\lib\inflection.js" />
+        <file src="node_modules\raml-parser\node_modules\inflection\.npmignore" target="content\net45\node_modules\raml-parser\node_modules\inflection\.npmignore" />
+        <file src="node_modules\raml-parser\node_modules\inflection\bower.json" target="content\net45\node_modules\raml-parser\node_modules\inflection\bower.json" />
+        <file src="node_modules\raml-parser\node_modules\inflection\component.json" target="content\net45\node_modules\raml-parser\node_modules\inflection\component.json" />
+        <file src="node_modules\raml-parser\node_modules\inflection\History.md" target="content\net45\node_modules\raml-parser\node_modules\inflection\History.md" />
+        <file src="node_modules\raml-parser\node_modules\inflection\inflection.min.js" target="content\net45\node_modules\raml-parser\node_modules\inflection\inflection.min.js" />
+        <file src="node_modules\raml-parser\node_modules\inflection\package.json" target="content\net45\node_modules\raml-parser\node_modules\inflection\package.json" />
+        <file src="node_modules\raml-parser\node_modules\inflection\Readme.md" target="content\net45\node_modules\raml-parser\node_modules\inflection\Readme.md" />
+        <file src="node_modules\raml-parser\node_modules\json-lint\demo\index.html" target="content\net45\node_modules\raml-parser\node_modules\json-lint\demo\index.html" />
+        <file src="node_modules\raml-parser\node_modules\json-lint\demo\jquery-1.4.2.js" target="content\net45\node_modules\raml-parser\node_modules\json-lint\demo\jquery-1.4.2.js" />
+        <file src="node_modules\raml-parser\node_modules\json-lint\demo\jquery-linedtextarea.css" target="content\net45\node_modules\raml-parser\node_modules\json-lint\demo\jquery-linedtextarea.css" />
+        <file src="node_modules\raml-parser\node_modules\json-lint\demo\jquery-linedtextarea.js" target="content\net45\node_modules\raml-parser\node_modules\json-lint\demo\jquery-linedtextarea.js" />
+        <file src="node_modules\raml-parser\node_modules\json-lint\demo\js.js" target="content\net45\node_modules\raml-parser\node_modules\json-lint\demo\js.js" />
+        <file src="node_modules\raml-parser\node_modules\json-lint\demo\styles.css" target="content\net45\node_modules\raml-parser\node_modules\json-lint\demo\styles.css" />
+        <file src="node_modules\raml-parser\node_modules\json-lint\test\src\files\clean\comments.json" target="content\net45\node_modules\raml-parser\node_modules\json-lint\test\src\files\clean\comments.json" />
+        <file src="node_modules\raml-parser\node_modules\json-lint\test\src\files\clean\multi-comment.json" target="content\net45\node_modules\raml-parser\node_modules\json-lint\test\src\files\clean\multi-comment.json" />
+        <file src="node_modules\raml-parser\node_modules\json-lint\test\src\files\clean\nested.json" target="content\net45\node_modules\raml-parser\node_modules\json-lint\test\src\files\clean\nested.json" />
+        <file src="node_modules\raml-parser\node_modules\json-lint\test\src\files\clean\Numeric.json" target="content\net45\node_modules\raml-parser\node_modules\json-lint\test\src\files\clean\Numeric.json" />
+        <file src="node_modules\raml-parser\node_modules\json-lint\test\src\files\clean\pit.json" target="content\net45\node_modules\raml-parser\node_modules\json-lint\test\src\files\clean\pit.json" />
+        <file src="node_modules\raml-parser\node_modules\json-lint\test\src\files\clean\strings.json" target="content\net45\node_modules\raml-parser\node_modules\json-lint\test\src\files\clean\strings.json" />
+        <file src="node_modules\raml-parser\node_modules\json-lint\test\src\files\invalid\empty.json" target="content\net45\node_modules\raml-parser\node_modules\json-lint\test\src\files\invalid\empty.json" />
+        <file src="node_modules\raml-parser\node_modules\json-lint\test\src\files\invalid\endofarray.json" target="content\net45\node_modules\raml-parser\node_modules\json-lint\test\src\files\invalid\endofarray.json" />
+        <file src="node_modules\raml-parser\node_modules\json-lint\test\src\files\invalid\multi-object.json" target="content\net45\node_modules\raml-parser\node_modules\json-lint\test\src\files\invalid\multi-object.json" />
+        <file src="node_modules\raml-parser\node_modules\json-lint\test\src\files\invalid\nocomments.json" target="content\net45\node_modules\raml-parser\node_modules\json-lint\test\src\files\invalid\nocomments.json" />
+        <file src="node_modules\raml-parser\node_modules\json-lint\test\src\files\invalid\nomulticomment.json" target="content\net45\node_modules\raml-parser\node_modules\json-lint\test\src\files\invalid\nomulticomment.json" />
+        <file src="node_modules\raml-parser\node_modules\json-lint\test\src\files\invalid\string.json" target="content\net45\node_modules\raml-parser\node_modules\json-lint\test\src\files\invalid\string.json" />
+        <file src="node_modules\raml-parser\node_modules\json-lint\test\src\files\spec.js" target="content\net45\node_modules\raml-parser\node_modules\json-lint\test\src\files\spec.js" />
+        <file src="node_modules\raml-parser\node_modules\json-lint\test\src\clean.js" target="content\net45\node_modules\raml-parser\node_modules\json-lint\test\src\clean.js" />
+        <file src="node_modules\raml-parser\node_modules\json-lint\test\src\color.js" target="content\net45\node_modules\raml-parser\node_modules\json-lint\test\src\color.js" />
+        <file src="node_modules\raml-parser\node_modules\json-lint\test\src\core.js" target="content\net45\node_modules\raml-parser\node_modules\json-lint\test\src\core.js" />
+        <file src="node_modules\raml-parser\node_modules\json-lint\test\src\invalid.js" target="content\net45\node_modules\raml-parser\node_modules\json-lint\test\src\invalid.js" />
+        <file src="node_modules\raml-parser\node_modules\json-lint\test\single.js" target="content\net45\node_modules\raml-parser\node_modules\json-lint\test\single.js" />
+        <file src="node_modules\raml-parser\node_modules\json-lint\test\start.js" target="content\net45\node_modules\raml-parser\node_modules\json-lint\test\start.js" />
+        <file src="node_modules\raml-parser\node_modules\json-lint\.lintignore" target="content\net45\node_modules\raml-parser\node_modules\json-lint\.lintignore" />
+        <file src="node_modules\raml-parser\node_modules\json-lint\jsonlint.js" target="content\net45\node_modules\raml-parser\node_modules\json-lint\jsonlint.js" />
+        <file src="node_modules\raml-parser\node_modules\json-lint\package.json" target="content\net45\node_modules\raml-parser\node_modules\json-lint\package.json" />
+        <file src="node_modules\raml-parser\node_modules\json-lint\README.md" target="content\net45\node_modules\raml-parser\node_modules\json-lint\README.md" />
+        <file src="node_modules\raml-parser\node_modules\q\benchmark\compare-with-callbacks.js" target="content\net45\node_modules\raml-parser\node_modules\q\benchmark\compare-with-callbacks.js" />
+        <file src="node_modules\raml-parser\node_modules\q\benchmark\scenarios.js" target="content\net45\node_modules\raml-parser\node_modules\q\benchmark\scenarios.js" />
+        <file src="node_modules\raml-parser\node_modules\q\CONTRIBUTING.md" target="content\net45\node_modules\raml-parser\node_modules\q\CONTRIBUTING.md" />
+        <file src="node_modules\raml-parser\node_modules\q\package.json" target="content\net45\node_modules\raml-parser\node_modules\q\package.json" />
+        <file src="node_modules\raml-parser\node_modules\q\q.js" target="content\net45\node_modules\raml-parser\node_modules\q\q.js" />
+        <file src="node_modules\raml-parser\node_modules\q\queue.js" target="content\net45\node_modules\raml-parser\node_modules\q\queue.js" />
+        <file src="node_modules\raml-parser\node_modules\q\README.md" target="content\net45\node_modules\raml-parser\node_modules\q\README.md" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\bin\uritemplate-min.js" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\bin\uritemplate-min.js" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\bin\uritemplate.js" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\bin\uritemplate.js" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\build\fileConcatter.js" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\build\fileConcatter.js" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\build\hinter.js" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\build\hinter.js" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\src\charHelper.js" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\src\charHelper.js" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\src\encodingHelper.js" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\src\encodingHelper.js" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\src\isDefined.js" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\src\isDefined.js" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\src\LiteralExpression.js" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\src\LiteralExpression.js" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\src\objectHelper.js" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\src\objectHelper.js" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\src\operators.js" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\src\operators.js" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\src\parse.js" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\src\parse.js" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\src\pctEncoder.js" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\src\pctEncoder.js" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\src\post.txt" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\src\post.txt" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\src\pre.txt" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\src\pre.txt" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\src\rfcCharHelper.js" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\src\rfcCharHelper.js" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\src\UriTemplateError.js" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\src\UriTemplateError.js" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\src\UriTemplate_.js" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\src\UriTemplate_.js" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\src\VariableExpression.js" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\src\VariableExpression.js" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\test\integration\simpleTest.js" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\test\integration\simpleTest.js" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\test\integration\testExport.js" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\test\integration\testExport.js" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\test\integration\testRfcSamples.js" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\test\integration\testRfcSamples.js" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\test\unit\testEncodingHelper.js" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\test\unit\testEncodingHelper.js" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\test\unit\testIsDefined.js" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\test\unit\testIsDefined.js" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\test\unit\testLiteralExpression.js" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\test\unit\testLiteralExpression.js" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\test\unit\testObjectHelper.js" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\test\unit\testObjectHelper.js" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\test\unit\testPctEncoder.js" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\test\unit\testPctEncoder.js" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\test\unit\testUriTemplate.js" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\test\unit\testUriTemplate.js" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\test\unit\testUriTemplateError.js" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\test\unit\testUriTemplateError.js" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\test\unit\testVariableExpression.js" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\test\unit\testVariableExpression.js" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\.gitmodules" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\.gitmodules" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\demo.html" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\demo.html" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\demo_AMD.html" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\demo_AMD.html" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\Jakefile.js" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\Jakefile.js" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\own-testcases.json" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\own-testcases.json" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\package.json" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\package.json" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\README.md" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\README.md" />
+        <file src="node_modules\raml-parser\node_modules\uritemplate\require.js" target="content\net45\node_modules\raml-parser\node_modules\uritemplate\require.js" />
+        <file src="node_modules\raml-parser\node_modules\xmlhttprequest\example\demo.js" target="content\net45\node_modules\raml-parser\node_modules\xmlhttprequest\example\demo.js" />
+        <file src="node_modules\raml-parser\node_modules\xmlhttprequest\lib\XMLHttpRequest.js" target="content\net45\node_modules\raml-parser\node_modules\xmlhttprequest\lib\XMLHttpRequest.js" />
+        <file src="node_modules\raml-parser\node_modules\xmlhttprequest\tests\test-constants.js" target="content\net45\node_modules\raml-parser\node_modules\xmlhttprequest\tests\test-constants.js" />
+        <file src="node_modules\raml-parser\node_modules\xmlhttprequest\tests\test-events.js" target="content\net45\node_modules\raml-parser\node_modules\xmlhttprequest\tests\test-events.js" />
+        <file src="node_modules\raml-parser\node_modules\xmlhttprequest\tests\test-exceptions.js" target="content\net45\node_modules\raml-parser\node_modules\xmlhttprequest\tests\test-exceptions.js" />
+        <file src="node_modules\raml-parser\node_modules\xmlhttprequest\tests\test-headers.js" target="content\net45\node_modules\raml-parser\node_modules\xmlhttprequest\tests\test-headers.js" />
+        <file src="node_modules\raml-parser\node_modules\xmlhttprequest\tests\test-redirect-302.js" target="content\net45\node_modules\raml-parser\node_modules\xmlhttprequest\tests\test-redirect-302.js" />
+        <file src="node_modules\raml-parser\node_modules\xmlhttprequest\tests\test-redirect-303.js" target="content\net45\node_modules\raml-parser\node_modules\xmlhttprequest\tests\test-redirect-303.js" />
+        <file src="node_modules\raml-parser\node_modules\xmlhttprequest\tests\test-redirect-307.js" target="content\net45\node_modules\raml-parser\node_modules\xmlhttprequest\tests\test-redirect-307.js" />
+        <file src="node_modules\raml-parser\node_modules\xmlhttprequest\tests\test-request-methods.js" target="content\net45\node_modules\raml-parser\node_modules\xmlhttprequest\tests\test-request-methods.js" />
+        <file src="node_modules\raml-parser\node_modules\xmlhttprequest\tests\test-request-protocols.js" target="content\net45\node_modules\raml-parser\node_modules\xmlhttprequest\tests\test-request-protocols.js" />
+        <file src="node_modules\raml-parser\node_modules\xmlhttprequest\tests\testdata.txt" target="content\net45\node_modules\raml-parser\node_modules\xmlhttprequest\tests\testdata.txt" />
+        <file src="node_modules\raml-parser\node_modules\xmlhttprequest\autotest.watchr" target="content\net45\node_modules\raml-parser\node_modules\xmlhttprequest\autotest.watchr" />
+        <file src="node_modules\raml-parser\node_modules\xmlhttprequest\package.json" target="content\net45\node_modules\raml-parser\node_modules\xmlhttprequest\package.json" />
+        <file src="node_modules\raml-parser\node_modules\xmlhttprequest\README.md" target="content\net45\node_modules\raml-parser\node_modules\xmlhttprequest\README.md" />
+        <file src="node_modules\raml-parser\src\composer.coffee" target="content\net45\node_modules\raml-parser\src\composer.coffee" />
+        <file src="node_modules\raml-parser\src\construct.coffee" target="content\net45\node_modules\raml-parser\src\construct.coffee" />
+        <file src="node_modules\raml-parser\src\errors.coffee" target="content\net45\node_modules\raml-parser\src\errors.coffee" />
+        <file src="node_modules\raml-parser\src\events.coffee" target="content\net45\node_modules\raml-parser\src\events.coffee" />
+        <file src="node_modules\raml-parser\src\joiner.coffee" target="content\net45\node_modules\raml-parser\src\joiner.coffee" />
+        <file src="node_modules\raml-parser\src\loader.coffee" target="content\net45\node_modules\raml-parser\src\loader.coffee" />
+        <file src="node_modules\raml-parser\src\nodes.coffee" target="content\net45\node_modules\raml-parser\src\nodes.coffee" />
+        <file src="node_modules\raml-parser\src\parser.coffee" target="content\net45\node_modules\raml-parser\src\parser.coffee" />
+        <file src="node_modules\raml-parser\src\protocols.coffee" target="content\net45\node_modules\raml-parser\src\protocols.coffee" />
+        <file src="node_modules\raml-parser\src\raml.coffee" target="content\net45\node_modules\raml-parser\src\raml.coffee" />
+        <file src="node_modules\raml-parser\src\reader.coffee" target="content\net45\node_modules\raml-parser\src\reader.coffee" />
+        <file src="node_modules\raml-parser\src\resolver.coffee" target="content\net45\node_modules\raml-parser\src\resolver.coffee" />
+        <file src="node_modules\raml-parser\src\resourceTypes.coffee" target="content\net45\node_modules\raml-parser\src\resourceTypes.coffee" />
+        <file src="node_modules\raml-parser\src\scanner.coffee" target="content\net45\node_modules\raml-parser\src\scanner.coffee" />
+        <file src="node_modules\raml-parser\src\schemas.coffee" target="content\net45\node_modules\raml-parser\src\schemas.coffee" />
+        <file src="node_modules\raml-parser\src\securitySchemes.coffee" target="content\net45\node_modules\raml-parser\src\securitySchemes.coffee" />
+        <file src="node_modules\raml-parser\src\tokens.coffee" target="content\net45\node_modules\raml-parser\src\tokens.coffee" />
+        <file src="node_modules\raml-parser\src\traits.coffee" target="content\net45\node_modules\raml-parser\src\traits.coffee" />
+        <file src="node_modules\raml-parser\src\transformations.coffee" target="content\net45\node_modules\raml-parser\src\transformations.coffee" />
+        <file src="node_modules\raml-parser\src\util.coffee" target="content\net45\node_modules\raml-parser\src\util.coffee" />
+        <file src="node_modules\raml-parser\src\validator.coffee" target="content\net45\node_modules\raml-parser\src\validator.coffee" />
+        <file src="node_modules\raml-parser\test\raml-files\customtrait.yml" target="content\net45\node_modules\raml-parser\test\raml-files\customtrait.yml" />
+        <file src="node_modules\raml-parser\test\raml-files\external.yaml" target="content\net45\node_modules\raml-parser\test\raml-files\external.yaml" />
+        <file src="node_modules\raml-parser\test\raml-files\external.yml" target="content\net45\node_modules\raml-parser\test\raml-files\external.yml" />
+        <file src="node_modules\raml-parser\test\raml-files\gettingstarted.md" target="content\net45\node_modules\raml-parser\test\raml-files\gettingstarted.md" />
+        <file src="node_modules\raml-parser\test\raml-files\large-raml.yml" target="content\net45\node_modules\raml-parser\test\raml-files\large-raml.yml" />
+        <file src="node_modules\raml-parser\test\raml-files\local.yml" target="content\net45\node_modules\raml-parser\test\raml-files\local.yml" />
+        <file src="node_modules\raml-parser\test\raml-files\regression.yml" target="content\net45\node_modules\raml-parser\test\raml-files\regression.yml" />
+        <file src="node_modules\raml-parser\test\raml-files\root.yml" target="content\net45\node_modules\raml-parser\test\raml-files\root.yml" />
+        <file src="node_modules\raml-parser\test\raml-files\RT-261.raml" target="content\net45\node_modules\raml-parser\test\raml-files\RT-261.raml" />
+        <file src="node_modules\raml-parser\test\raml-files\traitsAtResourceLevel.yml" target="content\net45\node_modules\raml-parser\test\raml-files\traitsAtResourceLevel.yml" />
+        <file src="node_modules\raml-parser\test\specs\duplicateKeysValidations.js" target="content\net45\node_modules\raml-parser\test\specs\duplicateKeysValidations.js" />
+        <file src="node_modules\raml-parser\test\specs\errors.js" target="content\net45\node_modules\raml-parser\test\specs\errors.js" />
+        <file src="node_modules\raml-parser\test\specs\includeResolution.js" target="content\net45\node_modules\raml-parser\test\specs\includeResolution.js" />
+        <file src="node_modules\raml-parser\test\specs\local.js" target="content\net45\node_modules\raml-parser\test\specs\local.js" />
+        <file src="node_modules\raml-parser\test\specs\optionals.js" target="content\net45\node_modules\raml-parser\test\specs\optionals.js" />
+        <file src="node_modules\raml-parser\test\specs\parser.html" target="content\net45\node_modules\raml-parser\test\specs\parser.html" />
+        <file src="node_modules\raml-parser\test\specs\parser.js" target="content\net45\node_modules\raml-parser\test\specs\parser.js" />
+        <file src="node_modules\raml-parser\test\specs\protocols.js" target="content\net45\node_modules\raml-parser\test\specs\protocols.js" />
+        <file src="node_modules\raml-parser\test\specs\raml.js" target="content\net45\node_modules\raml-parser\test\specs\raml.js" />
+        <file src="node_modules\raml-parser\test\specs\regressions.js" target="content\net45\node_modules\raml-parser\test\specs\regressions.js" />
+        <file src="node_modules\raml-parser\test\specs\resourceTypes.js" target="content\net45\node_modules\raml-parser\test\specs\resourceTypes.js" />
+        <file src="node_modules\raml-parser\test\specs\resourceTypesValidations.js" target="content\net45\node_modules\raml-parser\test\specs\resourceTypesValidations.js" />
+        <file src="node_modules\raml-parser\test\specs\traits.js" target="content\net45\node_modules\raml-parser\test\specs\traits.js" />
+        <file src="node_modules\raml-parser\test\specs\transformations.js" target="content\net45\node_modules\raml-parser\test\specs\transformations.js" />
+        <file src="node_modules\raml-parser\test\specs\validator.js" target="content\net45\node_modules\raml-parser\test\specs\validator.js" />
+        <file src="node_modules\raml-parser\.editorconfig" target="content\net45\node_modules\raml-parser\.editorconfig" />
+        <file src="node_modules\raml-parser\.jshintrc" target="content\net45\node_modules\raml-parser\.jshintrc" />
+        <file src="node_modules\raml-parser\.travis.yml" target="content\net45\node_modules\raml-parser\.travis.yml" />
+        <file src="node_modules\raml-parser\bower.json" target="content\net45\node_modules\raml-parser\bower.json" />
+        <file src="node_modules\raml-parser\Gruntfile.js" target="content\net45\node_modules\raml-parser\Gruntfile.js" />
+        <file src="node_modules\raml-parser\package.json" target="content\net45\node_modules\raml-parser\package.json" />
+        <file src="node_modules\raml-parser\README.md" target="content\net45\node_modules\raml-parser\README.md" />
+        <file src="bin\Release\Raml.Parser.dll" target="lib\net45\Raml.Parser.dll" />
+        <file src="install.ps1" target="tools\net45\install.ps1" />
+    </files>
+</package>
